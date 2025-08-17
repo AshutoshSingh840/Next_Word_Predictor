@@ -62,27 +62,27 @@ print("Prediction:", predictor.predict_next(input_text))
 
 Architecture:
 
-  • Embedding layer
-  • LSTM layers (1–2 stacked)
-  • Dense + Softmax output layer
-  • Loss Function: Categorical Crossentropy
-  • Optimizer: Adam
-  • Metrics: Accuracy
+  - Embedding layer
+  - LSTM layers (1–2 stacked)
+  - Dense + Softmax output layer
+  - Loss Function: Categorical Crossentropy
+  - Optimizer: Adam
+  - Metrics: Accuracy
 
 # 📈 Results
- • Training and evaluation results of the LSTM-based Next Word Predictor:
- • Model improves steadily over 50 epochs.
- • Loss decreases while accuracy increases, showing the model’s ability to learn sequential dependencies.
+ - Training and evaluation results of the LSTM-based Next Word Predictor:
+ - Model improves steadily over 50 epochs.
+ - Loss decreases while accuracy increases, showing the model’s ability to learn sequential dependencies.
 
 # 🤝 Contribution
 Contributions are welcome!
 Follow these steps:
 
-• Fork the repo
-• Create a branch (git checkout -b feature-name)
-• Commit changes (git commit -m "Add feature")
-• Push branch (git push origin feature-name)
-• Create a Pull Request
+- Fork the repo
+- Create a branch (git checkout -b feature-name)
+- Commit changes (git commit -m "Add feature")
+- Push branch (git push origin feature-name)
+- Create a Pull Request
 
 📜 License
 This project is licensed under the MIT License. See the LICENSE file for details.
