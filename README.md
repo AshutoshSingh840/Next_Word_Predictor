@@ -58,7 +58,7 @@ predictor = NextWordPredictor(model_path="model.h5", tokenizer_path="tokenizer.p
 input_text = "The quick brown"
 print("Prediction:", predictor.predict_next(input_text))
 
-📂 Project Structure
+# 📂 Project Structure
 
 Next_Word_Predictor/
 ├── data/                   # Dataset folder
@@ -70,7 +70,7 @@ Next_Word_Predictor/
 ├── README.md               # Project documentation
 └── examples/               # Example scripts
 
-📊 Model Details
+# 📊 Model Details
 
 Architecture:
 
@@ -86,14 +86,14 @@ Optimizer: Adam
 
 Metrics: Accuracy
 
-📈 Results
+# 📈 Results
 Training and evaluation results of the LSTM-based Next Word Predictor:
 
 Model improves steadily over 50 epochs.
 
 Loss decreases while accuracy increases, showing the model’s ability to learn sequential dependencies.
 
-🤝 Contribution
+# 🤝 Contribution
 Contributions are welcome!
 Follow these steps:
 
